@@ -21,7 +21,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://mani-fest.github.io',
-  baseUrl: '/shared-docs/',
+  baseUrl: 'shared-docs/',
  
 
 
