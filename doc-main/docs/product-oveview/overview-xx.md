@@ -1,4 +1,4 @@
-# Installation
+# Product overview
 
 This guide explains how to install the product.
  
