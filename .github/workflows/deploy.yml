@@ -25,17 +25,17 @@ jobs:
           node-version: 20
  
       - name: Install dependencies
-        working-directory: my-site
+        working-directory: doc-main
         run: npm ci
  
       - name: Build website
-        working-directory: my-site
+        working-directory: doc-main
         run: npm run build
  
       - name: Upload build
         uses: actions/upload-pages-artifact@v4
         with:
-          path: my-site/build
+          path: doc-main/build
  
   deploy:
     name: Deploy to GitHub Pages
