@@ -21,7 +21,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://mani-fest.github.io',
-  baseUrl: 'shared-docs/',
+  baseUrl: '/shared-docs/',
  
 
 
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mani-fest/shared-docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mani-fest/shared-docs/tree/main/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'MN Doc Portal',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -91,9 +91,9 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'productASidebar',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
