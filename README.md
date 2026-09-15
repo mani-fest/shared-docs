@@ -1,2 +1,2 @@
-# shred-docs
+# shared-docs
 Testing docs-as-code
