@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Product Support Portal',
-  tagline: 'Documentation for XXX product',
+  title: 'MN doc portal',
+  tagline: 'Documentation, what's new, and release notes',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -91,7 +91,7 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'docs',
+            sidebarId: 'productASidebar',
             position: 'left',
             label: 'Tutorial',
           },
